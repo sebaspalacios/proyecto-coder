@@ -1,0 +1,330 @@
+body {
+    background-color: rgb(194, 186, 186);
+    background-image: url(./fondoblanco.png);
+    margin: 1px;
+    padding: 1px;    
+}
+ #promo ol li {
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;  
+    color: #f5c8c3;
+    border-style:groove;
+    display:grid;
+    grid-template-areas: inherit;
+    grid-template-rows:40px;
+    text-decoration: none;
+    justify-content: center;
+    background-color:rgb(255, 253, 253);
+    border-width: 10px;    
+}
+.vino1 {
+    width: 33,3%;
+}
+#header2 {
+    background-color: #222;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;  
+}
+.bou2 {
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+header img {
+    height: 100px;
+}
+#carouselExampleControls {
+    width: 100%;
+    max-width: 120em;
+    background-color:#222;
+    padding-left: 710px;
+    padding-right: 710px;
+}
+
+.imagenes123 {
+    font-size: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+    color:#222;
+}
+   
+
+#header3 {
+    background-color: #222;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+#header4 {
+    background-color: #222;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+#negro {
+    background-color: #222;
+    height: 100px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px) ;
+    justify-items: center;
+}
+#negro ul li a {
+    background-color: #222;
+    color: rgb(245, 245, 240);
+    font-size: 25px;  
+    text-decoration: none;
+    padding: 13px;  
+}
+li {
+    display: inline-block;
+}
+.header {
+    background-color:#222;
+    height: 100px;
+    display: flex;
+    justify-content: center;  
+}
+#bouquet {
+    font-family:'Chakra Petch', sans-serif;
+    color: white;
+}
+.redes {
+    display: inline-block;
+    font-family: sans-serif;
+    padding-left: 600px; 
+}
+ #inst{
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #222;
+ }
+#parrafo1 {
+    border-style:groove;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to bottom,#559b8c ,#1fe7ab);
+    border-color: #d88f87;
+}
+#negro ul a:hover {
+    color: rgb(148, 100, 100);
+}
+#bougif {
+    
+    max-width: 65%;
+    height: 300px;
+    padding-left: 800px; 
+}
+ul a {
+    color: rgb(5, 5, 5);
+    font-style:'Nuosu SIL', serif;
+    font-size: 31px;
+    font-family:'Saira Condensed', sans-serif;
+}
+#elementoid {
+ text-align: center;
+ font-weight: bold;
+ font-size: 50px;
+ font-family:Arial, Helvetica, sans-serif;
+ text-shadow: 2px 2px 5px rgb(78, 50, 12);
+}
+#elementoid2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: rgb(238, 226, 203);
+    font-family:'Italianno', cursive;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+fieldset {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: bold;
+}
+div a {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #222;
+    padding-top: 30px;
+}
+.claveusuario {
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.calidadypureza  {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(78, 50, 12);
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.calidad {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(78, 50, 12);
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.informacionS {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(78, 50, 12);
+    font-size: 35px;
+}
+#realizarcompra {
+    text-align: center;
+    text-decoration-line:underline overline;
+}
+
+
+#imagentinto {
+    max-width: 65%;
+    height: auto;
+    padding-left: 420px;
+    
+}
+ .variedadVinos {
+  font-size: 25px;
+  font-family:'Saira Condensed', sans-serif;
+  border-style:groove;
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(231, 231, 231);
+  
+ }
+ .bodega1 {
+    font-size: 25px;
+    font-family:'Saira Condensed', sans-serif;
+    border-style:groove;
+    border-color:rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+ }
+ .viñedo1 {
+    font-size: 25px;
+    font-family:'Saira Condensed', sans-serif;
+    border-style:groove;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+ }
+ @media screen and ( min-width: 320) {
+
+    #elementoid2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: rgb(238, 226, 203);
+    font-family:'Italianno', cursive;
+}
+#bougif {
+    max-width: 65%;
+    height: 300px;
+    padding-left: 800px;
+}
+ #negro ul li a {
+    background-color: #222;
+    color: rgb(245, 245, 240);
+    font-size: 25px;  
+    text-decoration: none;
+    display: inline-block;
+    flex-direction: row;
+    padding: 15px;
+ }
+ .header {
+    background-color:#222;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+ }
+ #imagentinto {
+    max-width: 65%;
+    height: auto;
+    padding-left: 420px; 
+}
+#negro {
+    background-color: #222;
+    height: 100px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px) ;
+    justify-items: center;
+ }
+ #carouselExampleControls {
+    width: 100%;
+    max-width: 120em;
+    background-color:#222;
+    padding-left: 710px;
+    padding-right: 710px;
+}
+}
+
+ @media screen and (min-width:1200) {
+
+ 
+    #elementoid2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        text-shadow: rgb(238, 226, 203);
+        font-family:'Italianno', cursive;
+    }
+    #bougif {
+        max-width: 65%;
+        height: 300px;
+        padding-left: 800px;
+    }
+     #negro ul li a {
+        background-color: #222;
+        color: rgb(245, 245, 240);
+        font-size: 25px;  
+        text-decoration: none;
+        display: inline-block;
+        flex-direction: row;
+        padding: 15px;
+     }
+     .header {
+        background-color:#222;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+     }
+     #imagentinto {
+        max-width: 65%;
+        height: auto;
+        padding-left: 420px; 
+    }
+    #negro {
+        background-color: #222;
+        height: 100px;
+        display: grid;
+        grid-template-rows:auto ;
+        grid-template-rows:repeat(4, 150px) ;
+        justify-items: center;
+     }
+     #carouselExampleControls {
+        width: 100%;
+        max-width: 120em;
+        background-color:#222;
+        padding-left: 710px;
+        padding-right: 710px;
+    }
+}
