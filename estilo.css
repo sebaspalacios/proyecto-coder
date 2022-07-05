@@ -49,7 +49,48 @@ header img {
     font-family: 'Saira Condensed', sans-serif;
     color:#222;
 }
-   
+#v1 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+    
+}
+#v1:hover {
+filter:drop-shadow(0);
+transform: scale(1.1);
+}
+#v2 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v2:hover {
+filter:drop-shadow(0);
+transform: scale(1.1);
+}
+#v3 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v3:hover {
+filter:drop-shadow(0);
+transform: scale(1.1);
+}
+#v4 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v4:hover {
+filter:drop-shadow(0);
+transform: scale(1.1);
+}
+#v5 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v5:hover {
+filter:drop-shadow(0);
+transform: scale(1.1);
+}
+
 
 #header3 {
     background-color: #222;
@@ -226,6 +267,7 @@ div a {
     border-color: rgb(231, 231, 231);
     background-color: rgb(255, 255, 255);
  }
+
  @media screen and ( min-width: 320) {
 
     #elementoid2 {
