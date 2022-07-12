@@ -24,10 +24,17 @@ body {
 #header2 {
     background-color: #222;
     height: 100px;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer"; 
     align-items: center;
     justify-content: center;
-    color: white;  
+    color: white;   
 }
 .bou2 {
     font-family:'Chakra Petch', sans-serif;
@@ -51,8 +58,7 @@ header img {
 }
 #v1 {
     filter:drop-shadow(100%);
-    transition: all 1s;
-    
+    transition: all 1s;   
 }
 #v1:hover {
 filter:drop-shadow(0);
@@ -90,22 +96,35 @@ transform: scale(1.1);
 filter:drop-shadow(0);
 transform: scale(1.1);
 }
-
-
 #header3 {
     background-color: #222;
     height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer";             
     color: white;
     font-family:'Chakra Petch', sans-serif;
     font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
 #header4 {
     background-color: #222;
     height: 100px;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer"; 
+
     align-items: center;
     justify-content: center;
     color: white;
@@ -119,13 +138,16 @@ transform: scale(1.1);
     grid-template-rows:auto ;
     grid-template-rows:repeat(4, 150px) ;
     justify-items: center;
+    border-style: groove;
+    border-color: rgb(238, 162, 91)   
 }
 #negro ul li a {
     background-color: #222;
     color: rgb(245, 245, 240);
     font-size: 25px;  
     text-decoration: none;
-    padding: 13px;  
+    padding: 13px;
+    display: grid;   
 }
 li {
     display: inline-block;
@@ -133,9 +155,19 @@ li {
 .header {
     background-color:#222;
     height: 100px;
-    display: flex;
-    justify-content: center;  
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer";
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
+
 #bouquet {
     font-family:'Chakra Petch', sans-serif;
     color: white;
@@ -168,6 +200,30 @@ li {
     height: 300px;
     padding-left: 800px; 
 }
+.nro {
+    background-color:#222;
+    color: aliceblue;
+    font-family:'Chakra Petch', sans-serif;
+    display: grid;
+    align-content: space-around;
+    grid-template-rows:repeat(5, 40px);
+    font-size: 15px;
+}
+.letra {
+    font-family:'Chakra Petch', sans-serif;
+    color:#222;
+    padding-bottom: 90px;
+}
+.contactanos {
+    background-color: #222;
+    display: grid;
+    justify-items: center;
+    color: aliceblue;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+    border-style: groove;
+    border-color: rgb(238, 162, 91)
+}
 ul a {
     color: rgb(5, 5, 5);
     font-style:'Nuosu SIL', serif;
@@ -188,7 +244,6 @@ ul a {
     text-shadow: rgb(238, 226, 203);
     font-family:'Italianno', cursive;
 }
-
 p {
     font-weight: bold;
     font-size: 25px;
@@ -211,11 +266,6 @@ div a {
     color: #222;
     padding-top: 30px;
 }
-.claveusuario {
-    display: grid;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 .calidadypureza  {
     text-align: center;
     text-shadow: 2px 2px 5px rgb(78, 50, 12);
@@ -234,16 +284,17 @@ div a {
     font-size: 35px;
 }
 #realizarcompra {
+    background-color: #fadeba;
     text-align: center;
-    text-decoration-line:underline overline;
+    text-decoration-line:none;
+    font-family:'Chakra Petch', sans-serif;
+    border-style: groove;
+    border-color: rgb(238, 162, 91)
 }
-
-
 #imagentinto {
     max-width: 65%;
     height: auto;
-    padding-left: 420px;
-    
+    padding-left: 420px;  
 }
  .variedadVinos {
   font-size: 25px;
