@@ -40,6 +40,19 @@ body {
     font-family:'Chakra Petch', sans-serif;
     font-size: 30px;
 }
+.form-login h2 {    
+         margin: 0;
+         height: 45px;
+         font-size: 25px;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.controls {
+   
+    border: 1px solid #e6a959;
+    margin-bottom: 15px;
+    padding: 6px 6px;
+    background: #2222;
+}
 header img {
     height: 100px;
 }
