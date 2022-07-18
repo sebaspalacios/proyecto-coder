@@ -64,10 +64,15 @@ header img {
     padding-right: 710px;
 }
 
+.sombra {
+    box-shadow: 12px 0px 8px 0px #000;
+}
+
 .imagenes123 {
     font-size: 30px;
     font-family: 'Saira Condensed', sans-serif;
     color:#222;
+    box-shadow: 10px 0px 8px 0px #000;
 }
 #v1 {
     filter:drop-shadow(100%);
@@ -146,7 +151,7 @@ transform: scale(1.1);
 }
 #negro {
     background-color: #222;
-    height: 100px;
+    height: 95px;
     display: grid;
     grid-template-rows:auto ;
     grid-template-rows:repeat(4, 150px) ;
@@ -162,6 +167,7 @@ transform: scale(1.1);
     padding: 13px;
     display: grid;   
 }
+
 li {
     display: inline-block;
 }
@@ -185,11 +191,7 @@ li {
     font-family:'Chakra Petch', sans-serif;
     color: white;
 }
-.redes {
-    display: inline-block;
-    font-family: sans-serif;
-    padding-left: 600px; 
-}
+
  #inst{
     display: inline-block;
     padding: 25px;
@@ -201,9 +203,9 @@ li {
 #parrafo1 {
     border-style:groove;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(to bottom,#559b8c ,#1fe7ab);
     border-color: #d88f87;
 }
+
 #negro ul a:hover {
     color: rgb(148, 100, 100);
 }
@@ -235,8 +237,9 @@ li {
     font-family:'Chakra Petch', sans-serif;
     font-size: 30px;
     border-style: groove;
-    border-color: rgb(238, 162, 91)
+    border-color: rgb(238, 162, 91);
 }
+
 ul a {
     color: rgb(5, 5, 5);
     font-style:'Nuosu SIL', serif;
@@ -305,10 +308,17 @@ div a {
     border-color: rgb(238, 162, 91)
 }
 #imagentinto {
-    max-width: 65%;
+    max-width: 75%;
     height: auto;
-    padding-left: 420px;  
+    margin: auto;
+    padding-left: 480px;
+    
 }
+.vinocaro {
+    padding-inline-start: 40%;
+    box-shadow: 10px 7px 10px 0px #000;
+}
+
  .variedadVinos {
   font-size: 25px;
   font-family:'Saira Condensed', sans-serif;
