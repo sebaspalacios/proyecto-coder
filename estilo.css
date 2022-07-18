@@ -18,6 +18,28 @@ body {
     background-color:rgb(255, 253, 253);
     border-width: 10px;    
 }
+.sobrenosotros1 {
+    background-color:#222;
+    height: 95px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px);
+    justify-items: center;
+    border-style: groove;
+    border-color: rgb(238, 162, 91); 
+}
+.sobrenosotros1 ul a:hover {
+    color: rgb(148, 100, 100);
+}
+ul li a {
+    background-color: #222;
+    color: rgb(245, 245, 240);
+    font-size: 23px;  
+    text-decoration: none;
+    padding: 13px;
+    display: grid;
+    font-family: 'Chakra Petch', sans-serif;
+}
 .vino1 {
     width: 33,3%;
 }
@@ -46,6 +68,7 @@ body {
          font-size: 25px;
          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .controls {
    
     border: 1px solid #e6a959;
@@ -63,9 +86,27 @@ header img {
     padding-left: 710px;
     padding-right: 710px;
 }
-
+.nombre{
+    padding-left: 760px;
+}
+.correoelectronico {
+    padding-left: 760px;
+}
+.telefono {
+    padding-left: 760px;
+}
 .sombra {
     box-shadow: 12px 0px 8px 0px #000;
+}
+.mensaje {
+    padding-left: 760px;
+}
+#copas3 {
+    padding-left: 720px;
+    height: 270px;
+}
+.btnenviar {
+    padding-left: 760px;
 }
 
 .imagenes123 {
@@ -187,9 +228,11 @@ li {
     font-size: 15px;
 }
 
+
 #bouquet {
     font-family:'Chakra Petch', sans-serif;
     color: white;
+    font-size: 30px;
 }
 
  #inst{
@@ -215,6 +258,11 @@ li {
     height: 300px;
     padding-left: 800px; 
 }
+.-menu-vertical:hover {
+    position: absolute;
+    display: block;
+    list-style: none;
+}
 .nro {
     background-color:#222;
     color: aliceblue;
@@ -224,6 +272,7 @@ li {
     grid-template-rows:repeat(5, 40px);
     font-size: 15px;
 }
+
 .letra {
     font-family:'Chakra Petch', sans-serif;
     color:#222;
@@ -313,10 +362,6 @@ div a {
     margin: auto;
     padding-left: 480px;
     
-}
-.vinocaro {
-    padding-inline-start: 40%;
-    box-shadow: 10px 7px 10px 0px #000;
 }
 
  .variedadVinos {
