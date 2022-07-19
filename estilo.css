@@ -260,12 +260,10 @@ li {
 #negro ul a:hover {
     color: rgb(148, 100, 100);
 }
-#bougif {
-    
-    max-width: 65%;
-    height: 300px;
-    padding-left: 800px; 
+#bougit {
+    display: flex;
 }
+
 .-menu-vertical:hover {
     position: absolute;
     display: block;
@@ -317,6 +315,8 @@ ul a {
     font-size: 50px;
     text-shadow: rgb(238, 226, 203);
     font-family:'Italianno', cursive;
+    display: flex;
+    justify-content: center;
 }
 
 fieldset {
