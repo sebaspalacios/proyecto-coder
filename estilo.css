@@ -116,12 +116,23 @@ header img {
     flex-direction: column;
     align-items: center;
 }
-#copas3 {
-    padding-left: 720px;
-    height: 270px;
-}
+
 .btnenviar {
-    padding-left: 760px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logocontacto{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.logito {
+    box-shadow: 10px 0px 8px 0px #000;
+    margin-bottom: 10px;
+    
 }
 
 .imagenes123 {
@@ -397,28 +408,28 @@ h1 {
     align-items: center;
     
 }
+
 .formulario {
     margin-top: 10px;
     padding: 3px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
+    
 }
+
+
 input[type="text"],
 input[type="password"] {
     font-size: 20px;
     width: 100%;
     padding: 10px;
-    border: none;
-    
+    border-radius: 5px;
 }
 .logoacc {
     display:flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 .img-fluidd {
     height: 400px;
@@ -428,8 +439,8 @@ input[type="password"] {
 }
 .input-contenedor {
     margin-bottom: 15px;
-    
- 
+    border-radius: 5px;
+
 }
 .icon {
     min-width: 50px;
@@ -443,7 +454,9 @@ input[type="password"] {
     font-size: 21px;
     background-color: #222;
     padding: 12px 16px;
+    border-radius: 5px;
 }
+
 
 .button:hover {
     background:  rgb(238, 162, 91);
