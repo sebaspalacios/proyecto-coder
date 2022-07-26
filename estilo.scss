@@ -1,0 +1,614 @@
+@import "variables";
+body {
+    background-color: rgb(194, 186, 186);
+    background-image: url(./fondoblanco.png);
+    margin: 1px;
+    padding: 1px;    
+}
+ #promo ol li {
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;  
+    color:#7F1734;
+    border-style:groove;
+    display:grid;
+    grid-template-areas: inherit;
+    grid-template-rows:40px;
+    text-decoration: none;
+    justify-content: center;
+    background-color:rgb(255, 253, 253);
+    border-width: 10px;    
+}
+
+
+.sobrenosotros1 {
+    background-color:$colorBgn;
+    height: 95px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px);
+    justify-items: center;
+    border-style: groove;
+    border-color: 	#7F1734; 
+}
+.sobrenosotros1 ul a:hover {
+    color:#7F1734;;
+}
+ul li a {
+    background-color: $colorBgn;
+    color: rgb(245, 245, 240);
+    font-size: 23px;  
+    text-decoration: none;
+    padding: 13px;
+    display: grid;
+    font-family:$chakrafuente1;
+}
+.vino1 {
+    width: 33,3%;
+}
+#header2 {
+    background-color: $colorBgn;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer"; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.bou2 {
+    font-family:$chakrafuente1;
+    font-size: 30px;
+}
+.form-login h2 {    
+    margin: 0;
+    height: 45px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.controls {
+   
+    border: 1px solid 	#7F1734;
+    margin-bottom: 15px;
+    padding: 6px 6px;
+    background: #2222;
+}
+
+header img {
+    height: 100px;
+}
+#carouselExampleControls {
+    
+    background-color:$colorBgn;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nombre{
+    display: $displayContacto;
+    flex-direction: column;
+    align-items: center;
+}
+.correoelectronico {
+    display:$displayContacto;
+    flex-direction: column;
+    align-items: center;
+}
+.telefonoo {
+    display:$displayContacto;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sombra {
+    box-shadow: $colorBoxSh;
+}
+.mensaje {
+    display:$displayContacto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnenviar {
+    display:$displayContacto;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logocontacto{
+    display:$displayContacto;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.logito {
+    box-shadow: $colorBoxSh;
+    margin-bottom: 10px;
+    
+}
+
+.imagenes123 {
+    font-size: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+    color:#222;
+    box-shadow:$colorBoxSh;
+}
+#v1 {
+    filter:drop-shadow(100%);
+    transition: all 1s;  
+     
+}
+#v1:hover {
+    filter:drop-shadow(0);
+    transform: scale(1.1);
+}
+#v2 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v2:hover {
+    filter:drop-shadow(0);
+    transform: scale(1.1);
+}
+#v3 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v3:hover {
+    filter:drop-shadow(0);
+    transform: scale(1.1);
+}
+#v4 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v4:hover {
+    filter:drop-shadow(0);
+    transform: scale(1.1);
+}
+#v5 {
+    filter:drop-shadow(100%);
+    transition: all 1s;
+}
+#v5:hover {
+    filter:drop-shadow(0);
+    transform: scale(1.1);
+}
+#header3 {
+    background-color:$colorBgn;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer";             
+    color: white;
+    font-family:$chakrafuente1;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#header4 {
+    background-color:$colorBgn;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer"; 
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: $chakrafuente1;
+    font-size: 30px;
+}
+#negro {
+    background-color:$colorBgn;
+    height: 95px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px) ;
+    justify-items: center;
+    border-style: groove;
+    border-color:	#7F1734;   
+}
+#negro ul li a {
+    background-color:$colorBgn;
+    color: rgb(245, 245, 240);
+    font-size: 25px;  
+    text-decoration: none;
+    padding: 13px;
+    display: grid;   
+}
+
+li {
+    display: inline-block;
+}
+.prohibido-18 {
+    font-size: 22px;
+}
+.header {
+    background-color:$colorBgn;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "compraMayorista compraMayorista"
+    "sobreNosotros sobreNosotros"
+    "contacto contacto"
+    "promociones promociones"
+    "footer footer";
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+#bouquet {
+    font-family:'Chakra Petch', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+ #inst{
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #222;
+ }
+#parrafo1 {
+    border-style:groove;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: 	#7F1734;
+}
+
+#negro ul a:hover {
+    color: #7F1734;;
+}
+#bougit {
+    display: flex;
+}
+
+.-menu-vertical:hover {
+    position: absolute;
+    display: block;
+    list-style: none;
+}
+.nro {
+    background-color:$colorBgn;
+    color: aliceblue;
+    font-family:$chakrafuente1;
+    display: grid;
+    align-content: space-around;
+    grid-template-rows:repeat(5, 40px);
+    font-size: 15px;
+}
+
+.letra {
+    font-family:$chakrafuente1;
+    color:#222;
+    padding-bottom: 90px;
+}
+.contactanos {
+    background-color: $colorBgn;
+    display: grid;
+    justify-items: center;
+    color: aliceblue;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+    border-style: groove;
+    border-color:	#7F1734;
+}
+
+ul a {
+    color: rgb(5, 5, 5);
+    font-style:'Nuosu SIL', serif;
+    font-size: 31px;
+    font-family:'Saira Condensed', sans-serif;
+    text-decoration: none;
+}
+#elementoid {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: #7F1734;
+}
+#elementoid2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgb(12, 11, 11);
+    font-family:'Italianno', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+fieldset {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: bold;
+}
+.text-muted {
+    font-size: 15px;
+}
+.calidadypureza  {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(127 23 52 );
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.calidad {
+    text-align: center;
+    text-shadow:2px 2px 5px rgb(127 23 52); 
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.informacionS {
+    text-align: center;
+    text-shadow: #7F1734;
+    font-size: 35px;
+}
+#realizarcompra {
+    background-color: #a56275;
+    text-align: center;
+    text-decoration-line:none;
+    font-family:'Chakra Petch', sans-serif;
+    border-style: groove;
+    border-color:	#7F1734;
+}
+.imagentinto {
+    display:flex;
+    justify-content: center;
+}
+.imagentinto img {
+    width: 850px;
+    height: 600px;
+   
+}
+
+ .bodega1 {
+    font-size: 25px;
+    font-family:'Saira Condensed', sans-serif;
+    border-style:groove;
+    border-color:#7F1734;;
+    background-color: rgb(255, 255, 255);
+ }
+ .micuenta {
+    background-image: url(./Fmaderavino.jpg);
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+.contenedor1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formulario {
+    margin-top: 10px;
+    padding: 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logoacc {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-fluidd {
+    height: 400px;
+    width: 380px;
+    box-shadow: 5px 5px 10px 5px #000;
+    border-radius: 3px;
+}
+.input-contenedor {
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+.button {
+    border:none;
+    width: 100%;
+    color:white;
+    font-size: 21px;
+    background-color: #222;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+
+
+.button:hover {
+    background:#7F1734;
+}
+#p1 { 
+    color: white;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    border-style:groove;
+    border-color:$colorBgn;
+    color: white;
+    background-color: #222;
+    border-radius: 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registro {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 10px 10px 10px rgb(15, 13, 13);
+}
+.registro {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 10px 10px 10px rgb(12, 11, 11);
+}
+.viñedo1 {
+    font-size: 25px;
+    font-family:'Saira Condensed', sans-serif;
+    border-style:groove;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+ }
+
+ #carouselExampleIndicators {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    
+ @media screen and ( min-width: 320) {
+
+    #elementoid2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: rgb(238, 226, 203);
+    font-family:'Italianno', cursive;
+}
+#bougif {
+    max-width: 65%;
+    height: 300px;
+    padding-left: 800px;
+}
+ #negro ul li a {
+    background-color: #222;
+    color: rgb(245, 245, 240);
+    font-size: 25px;  
+    text-decoration: none;
+    display: inline-block;
+    flex-direction: row;
+    padding: 15px;
+ }
+ .header {
+    background-color:#222;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+ }
+ #imagentinto {
+    max-width: 65%;
+    height: auto;
+    padding-left: 420px; 
+}
+#negro {
+    background-color: #222;
+    height: 100px;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-rows:repeat(4, 150px) ;
+    justify-items: center;
+ }
+ #carouselExampleControls {
+    width: 100%;
+    max-width: 120em;
+    background-color:#222;
+    padding-left: 710px;
+    padding-right: 710px;
+}
+}
+
+ @media screen and (min-width:1200) {
+
+ 
+    #elementoid2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        text-shadow: rgb(238, 226, 203);
+        font-family:'Italianno', cursive;
+    }
+    #bougif {
+        max-width: 65%;
+        height: 300px;
+        padding-left: 800px;
+    }
+     #negro ul li a {
+        background-color: #222;
+        color: rgb(245, 245, 240);
+        font-size: 25px;  
+        text-decoration: none;
+        display: inline-block;
+        flex-direction: row;
+        padding: 15px;
+     }
+     .header {
+        background-color:#222;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+     }
+     #imagentinto {
+        max-width: 65%;
+        height: auto;
+        padding-left: 420px; 
+    }
+    #negro {
+        background-color: #222;
+        height: 100px;
+        display: grid;
+        grid-template-rows:auto ;
+        grid-template-rows:repeat(4, 150px) ;
+        justify-items: center;
+     }
+     #carouselExampleControls {
+        width: 100%;
+        max-width: 120em;
+        background-color:#222;
+        padding-left: 710px;
+        padding-right: 710px;
+    }
+}
